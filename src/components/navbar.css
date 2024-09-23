@@ -1,0 +1,21 @@
+/* navbar.css */
+.nav-item {
+    margin-inline: 1.4rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    transition: text-shadow 0.3s ease-in-out;
+    
+    }
+  
+.nav-item:hover {
+    text-shadow: 2px 2px 5px rgba(78, 78, 78, 0.5);
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #ffffffbc;
+
+  }
+  

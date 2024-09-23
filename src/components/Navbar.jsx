@@ -2,6 +2,7 @@
 
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './navbar.css';
 
 function Navbar() {
   return (
@@ -20,16 +21,16 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse mx-auto" id="navbarNav">
           <ul className="navbar-nav mx-auto justify-content-center">
-            <li className="nav-item">
+            <li className="nav-item my-1">
               <a className="nav-link" href="#">Aluguel</a>
             </li>
-            <li className="nav-item">   
+            <li className="nav-item my-1">   
               <a className="nav-link" href="#">Experiência</a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item my-1">
               <a className="nav-link" href="#">Indicações</a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item my-1">
               <a className="nav-link" href="#">Contato</a>
             </li>
           </ul>

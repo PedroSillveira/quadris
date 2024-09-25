@@ -1,3 +1,27 @@
 .main {
     background-image: linear-gradient(to bottom, #4EA7D8, #7AC0F9 );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aluguel h1 {
+    color: #FFCD00;
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 3rem;
+}
+/* .aluguel p {
+    margin: 3rem;
+} */
+
+
+.textA {
+    text-align: center;
+}
+
+.textA p {
+    display: inline-block;
+    max-width: 80%; /* Ajuste a largura conforme necessário */
+    text-align: center;
 }

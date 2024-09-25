@@ -1,3 +1,15 @@
 .content {
     background-image: linear-gradient(to bottom, #7AC0F9, #8DC9FB);
+    text-align: center;
+}
+
+.content h1 {
+    color: #ffce08;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.polaroid {
+    width: 100%;
+    height: auto;
 }

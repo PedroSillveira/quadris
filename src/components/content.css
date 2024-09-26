@@ -9,7 +9,23 @@
     font-weight: 800;
 }
 
+.text-responsive {
+    max-width: 500px;
+    width: 100%;
+}
+
 .polaroid {
     width: 100%;
     height: auto;
+    padding: 5rem;
 }
+@media (max-width: 576px) {
+    .polaroid {
+      padding: 1rem;
+    }
+    .content h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+  }
+  

@@ -1,27 +1,37 @@
 .main {
-    background-image: linear-gradient(to bottom, #4EA7D8, #7AC0F9 );
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-image: linear-gradient(to bottom, #4EA7D8, #7AC0F9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .aluguel h1 {
-    color: #FFCD00;
-    font-size: 3rem;
-    font-weight: 800;
-    margin: 3rem;
+  color: #FFCD00;
+  font-size: 3rem;
+  font-weight: 800;
 }
-/* .aluguel p {
-    margin: 3rem;
-} */
-
 
 .textA {
-    text-align: center;
+  text-align: center;
 }
 
 .textA p {
-    display: inline-block;
-    max-width: 80%; /* Ajuste a largura conforme necessário */
-    text-align: center;
+  display: inline-block;
+  max-width: 80%;
+  text-align: center;
+}
+
+.custom-card {
+  max-width: 100%;
+}
+
+@media (max-width: 576px) {
+  .custom-card {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .aluguel h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
 }
